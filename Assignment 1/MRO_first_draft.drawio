@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="b98fa263-6416-c6ec-5b7d-78bf54ef71d0">
-    <mxGraphModel dx="1985" dy="1190" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="1190" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -190,7 +190,7 @@
         <mxCell id="OxoNi5qvrJBeRdZsODT2-86" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1490" y="500" width="194" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-77" value="Uplink/Downlink&lt;div&gt;Support&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" vertex="1" parent="OxoNi5qvrJBeRdZsODT2-86">
+        <mxCell id="OxoNi5qvrJBeRdZsODT2-77" value="Uplink/Downlink&lt;div&gt;support&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" vertex="1" parent="OxoNi5qvrJBeRdZsODT2-86">
           <mxGeometry width="194" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-79" value="Telemetry monitoring" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" vertex="1" parent="OxoNi5qvrJBeRdZsODT2-86">
