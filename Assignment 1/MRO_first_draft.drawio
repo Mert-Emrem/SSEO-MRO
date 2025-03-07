@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="b98fa263-6416-c6ec-5b7d-78bf54ef71d0">
-    <mxGraphModel dx="1985" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2647" dy="1540" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -13,22 +13,17 @@
         <mxCell id="303ed1de8c2c98b4-3" value="Mars Reconnaisance Orbiter" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
           <mxGeometry x="813" y="185" width="393" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="303ed1de8c2c98b4-5" target="OxoNi5qvrJBeRdZsODT2-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1437" y="490" />
-              <mxPoint x="1254" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="303ed1de8c2c98b4-5" target="OxoNi5qvrJBeRdZsODT2-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wUONexCnlZndCB9AWCZm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="303ed1de8c2c98b4-5" target="wUONexCnlZndCB9AWCZm-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wUONexCnlZndCB9AWCZm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="303ed1de8c2c98b4-5" target="OxoNi5qvrJBeRdZsODT2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="303ed1de8c2c98b4-5" value="Science Ops" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1299.5" y="410" width="275" height="40" as="geometry" />
+          <mxGeometry x="1727" y="460" width="275" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="303ed1de8c2c98b4-7" target="OxoNi5qvrJBeRdZsODT2-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -48,20 +43,20 @@
         <mxCell id="OxoNi5qvrJBeRdZsODT2-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="303ed1de8c2c98b4-7" target="OxoNi5qvrJBeRdZsODT2-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="303ed1de8c2c98b4-7" value="Achieve target Mars orbit" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="350" y="410" width="320" height="40" as="geometry" />
+        <mxCell id="303ed1de8c2c98b4-7" value="Achieve target orbit" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="460" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-5" value="Launch into interplanetary orbit" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="280" y="530" width="160" height="90" as="geometry" />
+        <mxCell id="OxoNi5qvrJBeRdZsODT2-5" value="Launch" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
+          <mxGeometry x="950" y="580" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-7" value="Maintain&lt;br&gt;trajectory" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="280" y="750" width="160" height="90" as="geometry" />
+          <mxGeometry x="950" y="800" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-10" value="Injection to&lt;div&gt;Mars orbit&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="280" y="870" width="160" height="90" as="geometry" />
+          <mxGeometry x="950" y="920" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-12" value="Separate from&lt;div&gt;launcher&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="280" y="640" width="160" height="90" as="geometry" />
+          <mxGeometry x="950" y="690" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-15" target="OxoNi5qvrJBeRdZsODT2-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -76,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-15" value="Data&lt;div&gt;handling&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1172" y="530" width="165" height="90" as="geometry" />
+          <mxGeometry x="1782" y="580" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-16" target="OxoNi5qvrJBeRdZsODT2-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -91,7 +86,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-16" value="Achieve and maintain state&lt;div&gt;for observation&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1637" y="530" width="165" height="90" as="geometry" />
+          <mxGeometry x="2247" y="580" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-17" target="OxoNi5qvrJBeRdZsODT2-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -100,19 +95,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-17" value="Acquisition" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1052" y="640" width="165" height="90" as="geometry" />
+          <mxGeometry x="1662" y="690" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-19" value="Storage" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1289" y="640" width="165" height="90" as="geometry" />
+          <mxGeometry x="1899" y="690" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-20" value="On-board processing" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1289" y="760" width="165" height="90" as="geometry" />
+          <mxGeometry x="1899" y="810" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-22" value="Atmosphere&lt;div&gt;imaging&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=light-dark(#e8e8e8, #1E1E1E);strokeColor=#666666;fontColor=light-dark(#000000, #c1c1c1);gradientColor=none;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="932" y="750" width="165" height="90" as="geometry" />
+          <mxGeometry x="1542" y="800" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-26" value="Surface/&lt;div&gt;subsurface imaging&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=light-dark(#E8E8E8,#1E1E1E);strokeColor=#666666;fontColor=light-dark(#000000, #c1c1c1);gradientColor=none;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="932" y="870" width="165" height="90" as="geometry" />
+          <mxGeometry x="1542" y="920" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-31" target="OxoNi5qvrJBeRdZsODT2-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -124,40 +119,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-31" value="Data transfer" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1289" y="880" width="165" height="90" as="geometry" />
+          <mxGeometry x="1899" y="930" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-35" value="Between S/C and Earth" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=#E8E8E8;fontColor=light-dark(#000000, #c1c1c1);strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1159.5" y="1000" width="165" height="90" as="geometry" />
+          <mxGeometry x="1769.5" y="1050" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-37" value="Between subsystems" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=#E8E8E8;fontColor=light-dark(#000000, #c1c1c1);strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1159.5" y="1120" width="165" height="90" as="geometry" />
+          <mxGeometry x="1769.5" y="1170" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-39" value="Between S/C and other S/C" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=#E8E8E8;fontColor=light-dark(#000000, #c1c1c1);strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1422" y="1000" width="165" height="90" as="geometry" />
+          <mxGeometry x="2032" y="1050" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-42" value="Orbital&amp;nbsp;&lt;div&gt;station-keeping&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1762" y="640" width="165" height="90" as="geometry" />
+          <mxGeometry x="2372" y="690" width="165" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-45" target="OxoNi5qvrJBeRdZsODT2-53" edge="1">
+        <mxCell id="wUONexCnlZndCB9AWCZm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OxoNi5qvrJBeRdZsODT2-45" target="OxoNi5qvrJBeRdZsODT2-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-45" target="OxoNi5qvrJBeRdZsODT2-51" edge="1">
+        <mxCell id="wUONexCnlZndCB9AWCZm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OxoNi5qvrJBeRdZsODT2-45" target="OxoNi5qvrJBeRdZsODT2-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-45" value="Power&lt;div&gt;management&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1762" y="760" width="165" height="90" as="geometry" />
+          <mxGeometry x="2372" y="810" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-47" value="Attitude&lt;div&gt;control&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1512" y="640" width="165" height="90" as="geometry" />
+          <mxGeometry x="2122" y="690" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-49" value="Temperature control" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1512" y="760" width="165" height="90" as="geometry" />
+          <mxGeometry x="2122" y="810" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-51" value="Power generation" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#E8E8E8;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1637" y="880" width="165" height="90" as="geometry" />
+          <mxGeometry x="2500" y="930" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-53" value="Power distribution" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#E8E8E8;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1637" y="1000" width="165" height="90" as="geometry" />
+          <mxGeometry x="2500" y="1050" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-56" target="OxoNi5qvrJBeRdZsODT2-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -166,7 +161,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-56" value="Ground" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="300" width="275" height="40" as="geometry" />
+          <mxGeometry x="572" y="350" width="275" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-58" target="303ed1de8c2c98b4-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -174,29 +169,32 @@
         <mxCell id="OxoNi5qvrJBeRdZsODT2-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-58" target="303ed1de8c2c98b4-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wUONexCnlZndCB9AWCZm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OxoNi5qvrJBeRdZsODT2-58" target="wUONexCnlZndCB9AWCZm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-58" value="Spacecraft" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="562.5" y="300" width="275" height="40" as="geometry" />
+          <mxGeometry x="1440" y="350" width="275" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-70" target="OxoNi5qvrJBeRdZsODT2-77" edge="1">
+        <mxCell id="wUONexCnlZndCB9AWCZm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OxoNi5qvrJBeRdZsODT2-70" target="OxoNi5qvrJBeRdZsODT2-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-70" target="OxoNi5qvrJBeRdZsODT2-79" edge="1">
+        <mxCell id="wUONexCnlZndCB9AWCZm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OxoNi5qvrJBeRdZsODT2-70" target="OxoNi5qvrJBeRdZsODT2-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OxoNi5qvrJBeRdZsODT2-70" target="OxoNi5qvrJBeRdZsODT2-81" edge="1">
+        <mxCell id="wUONexCnlZndCB9AWCZm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OxoNi5qvrJBeRdZsODT2-70" target="OxoNi5qvrJBeRdZsODT2-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-70" value="Operations" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1872" y="410" width="275" height="40" as="geometry" />
+          <mxGeometry x="660" y="460" width="275" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-75" value="Data processing &amp;amp;&lt;div&gt;analysis&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="2236" y="410" width="275" height="70" as="geometry" />
+          <mxGeometry x="320" y="460" width="275" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-84" value="Transition to&lt;div&gt;primary science orbit&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="280" y="990" width="160" height="90" as="geometry" />
+          <mxGeometry x="950" y="1040" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-86" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2042" y="500" width="194" height="320" as="geometry" />
+          <mxGeometry x="540" y="570" width="194" height="320" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-77" value="Uplink/Downlink&lt;div&gt;support&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="OxoNi5qvrJBeRdZsODT2-86" vertex="1">
           <mxGeometry width="194" height="90" as="geometry" />
@@ -208,10 +206,7 @@
           <mxGeometry y="230" width="194" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OxoNi5qvrJBeRdZsODT2-87" value="Switch to/from&lt;div&gt;relay orbit&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1110" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="OxoNi5qvrJBeRdZsODT2-89" value="Disposal / Conclusion??" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" parent="1" vertex="1">
-          <mxGeometry x="1989" y="910" width="165" height="90" as="geometry" />
+          <mxGeometry x="950" y="1160" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wUONexCnlZndCB9AWCZm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wUONexCnlZndCB9AWCZm-1" target="wUONexCnlZndCB9AWCZm-5">
           <mxGeometry relative="1" as="geometry" />
@@ -223,16 +218,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wUONexCnlZndCB9AWCZm-1" value="Instruments" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" vertex="1" parent="1">
-          <mxGeometry x="780" y="530" width="165" height="90" as="geometry" />
+          <mxGeometry x="1390" y="580" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wUONexCnlZndCB9AWCZm-5" value="In-orbit calibration" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=light-dark(#e8e8e8, #1E1E1E);strokeColor=#666666;fontColor=light-dark(#000000, #c1c1c1);gradientColor=none;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="630" y="670" width="165" height="90" as="geometry" />
+          <mxGeometry x="1240" y="720" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wUONexCnlZndCB9AWCZm-6" value="Instrument&lt;div&gt;operation&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=light-dark(#E8E8E8,#1E1E1E);strokeColor=#666666;fontColor=light-dark(#000000, #c1c1c1);gradientColor=none;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="630" y="790" width="165" height="90" as="geometry" />
+          <mxGeometry x="1240" y="840" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wUONexCnlZndCB9AWCZm-7" value="Instrument status check" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;fillColor=light-dark(#E8E8E8,#1E1E1E);strokeColor=#666666;fontColor=light-dark(#000000, #c1c1c1);gradientColor=none;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="630" y="910" width="165" height="90" as="geometry" />
+          <mxGeometry x="1240" y="960" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wUONexCnlZndCB9AWCZm-14" value="Mission conclusion and disposal" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;fontSize=22;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=CMU Serif;fontSource=https%3A%2F%2Ffont.download%2Ffont%2Fcmu-serif;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="460" width="360" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
