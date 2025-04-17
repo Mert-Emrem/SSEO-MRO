@@ -1,0 +1,21 @@
+c = 299792458;
+
+freq_dl = 8439.55*10^6; % hz
+
+lambda = c/freq_dl; % m
+
+d = 401.4e9; %distance, m
+
+L_FP = 20*log10(((4*pi*d)/lambda));
+
+d_tx = 3; % m
+
+eta_tx = 0.61;
+
+gain_linear = (pi * d_tx^2 * eta_tx) / lambda^2;
+
+gain_dB = 10 * log10(gain_linear)
+
+G = 57.9;
+
+eff = lambda * 10^(G/10) / (pi* d_tx^2)

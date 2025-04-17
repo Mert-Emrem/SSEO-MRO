@@ -1,0 +1,117 @@
+% GMAT Script: MRO Cruise Phase - Solar System Visualization (ASCII-only)
+
+%----------------------------------------
+%---------- Spacecraft
+%----------------------------------------
+
+Create Spacecraft MRO;
+GMAT MRO.DateFormat = TAIModJulian;
+GMAT MRO.Epoch = '23595.0288';
+GMAT MRO.CoordinateSystem = SolarSystemMJ2000Eq;
+GMAT MRO.DisplayStateType = Keplerian;
+GMAT MRO.SMA = 7191.93881762901;
+GMAT MRO.ECC = 0.02454974900598051;
+GMAT MRO.INC = 12.85008005658097;
+GMAT MRO.RAAN = 306.6148021947984;
+GMAT MRO.AOP = 314.1905515359913;
+GMAT MRO.TA = 99.88774933204962;
+GMAT MRO.DryMass = 850;
+GMAT MRO.Cd = 2.2;
+GMAT MRO.Cr = 1.8;
+GMAT MRO.DragArea = 15;
+GMAT MRO.SRPArea = 1;
+GMAT MRO.SPADDragScaleFactor = 1;
+GMAT MRO.SPADSRPScaleFactor = 1;
+GMAT MRO.AtmosDensityScaleFactor = 1;
+GMAT MRO.ExtendedMassPropertiesModel = 'None';
+GMAT MRO.NAIFId = -74;
+GMAT MRO.NAIFIdReferenceFrame = -74900;
+GMAT MRO.OrbitSpiceKernelName = {'C:/SPICE/MRO/mro_cruise.bsp'};
+GMAT MRO.SCClockSpiceKernelName = {'C:/SPICE/MRO/MRO_SCLKSCET.00113.tsc'};
+GMAT MRO.FrameSpiceKernelName = {'C:/SPICE/MRO/mro_v16.tf'};
+GMAT MRO.OrbitColor = Red;
+GMAT MRO.TargetColor = Teal;
+GMAT MRO.OrbitErrorCovariance = [ 1e+70 0 0 0 0 0 ; 0 1e+70 0 0 0 0 ; 0 0 1e+70 0 0 0 ; 0 0 0 1e+70 0 0 ; 0 0 0 0 1e+70 0 ; 0 0 0 0 0 1e+70 ];
+GMAT MRO.CdSigma = 1e+70;
+GMAT MRO.CrSigma = 1e+70;
+GMAT MRO.Id = 'SatId';
+GMAT MRO.Attitude = CoordinateSystemFixed;
+GMAT MRO.SPADSRPInterpolationMethod = Bilinear;
+GMAT MRO.SPADSRPScaleFactorSigma = 1e+70;
+GMAT MRO.SPADDragInterpolationMethod = Bilinear;
+GMAT MRO.SPADDragScaleFactorSigma = 1e+70;
+GMAT MRO.AtmosDensityScaleFactorSigma = 1e+70;
+GMAT MRO.ModelFile = 'C:/Users/merte/Desktop/Italy/PoliMi/PoliSpace/GMAT/data/vehicle/models/mro.3ds';
+GMAT MRO.ModelOffsetX = 0;
+GMAT MRO.ModelOffsetY = 0;
+GMAT MRO.ModelOffsetZ = 0;
+GMAT MRO.ModelRotationX = 0;
+GMAT MRO.ModelRotationY = 0;
+GMAT MRO.ModelRotationZ = 0;
+GMAT MRO.ModelScale = 1.9;
+GMAT MRO.AttitudeDisplayStateType = 'Quaternion';
+GMAT MRO.AttitudeRateDisplayStateType = 'AngularVelocity';
+GMAT MRO.AttitudeCoordinateSystem = SolarSystemMJ2000Eq;
+GMAT MRO.EulerAngleSequence = '321';
+
+%----------------------------------------
+%---------- Propagators
+%----------------------------------------
+
+Create Propagator spkProp;
+GMAT spkProp.Type = SPK;
+GMAT spkProp.StepSize = 1000;
+GMAT spkProp.CentralBody = Earth;
+GMAT spkProp.EpochFormat = 'TAIModJulian';
+GMAT spkProp.StartEpoch = '23595.0288';
+
+%----------------------------------------
+%---------- Coordinate Systems
+%----------------------------------------
+
+Create CoordinateSystem SolarSystemMJ2000Eq;
+GMAT SolarSystemMJ2000Eq.Origin = Sun;
+GMAT SolarSystemMJ2000Eq.Axes = MJ2000Eq;
+
+%----------------------------------------
+%---------- Subscribers
+%----------------------------------------
+
+Create OrbitView MROOrbitView;
+GMAT MROOrbitView.SolverIterations = Current;
+GMAT MROOrbitView.UpperLeft = [ 0 0 ];
+GMAT MROOrbitView.Size = [ 1 1 ];
+GMAT MROOrbitView.RelativeZOrder = 173;
+GMAT MROOrbitView.Maximized = false;
+GMAT MROOrbitView.Add = {MRO, Earth, Mars, Venus, Mercury, Jupiter, Sun};
+GMAT MROOrbitView.CoordinateSystem = SolarSystemMJ2000Eq;
+GMAT MROOrbitView.DrawObject = [ true true true true true true true ];
+GMAT MROOrbitView.DataCollectFrequency = 1;
+GMAT MROOrbitView.UpdatePlotFrequency = 50;
+GMAT MROOrbitView.NumPointsToRedraw = 0;
+GMAT MROOrbitView.ShowPlot = true;
+GMAT MROOrbitView.MaxPlotPoints = 20000;
+GMAT MROOrbitView.ShowLabels = true;
+GMAT MROOrbitView.ViewPointReference = Sun;
+GMAT MROOrbitView.ViewPointVector = [ 30000000 0 0 ];
+GMAT MROOrbitView.ViewDirection = Sun;
+GMAT MROOrbitView.ViewScaleFactor = 10;
+GMAT MROOrbitView.ViewUpCoordinateSystem = SolarSystemMJ2000Eq;
+GMAT MROOrbitView.ViewUpAxis = Z;
+GMAT MROOrbitView.EclipticPlane = Off;
+GMAT MROOrbitView.XYPlane = On;
+GMAT MROOrbitView.WireFrame = Off;
+GMAT MROOrbitView.Axes = On;
+GMAT MROOrbitView.Grid = Off;
+GMAT MROOrbitView.SunLine = On;
+GMAT MROOrbitView.UseInitialView = On;
+GMAT MROOrbitView.StarCount = 5000;
+GMAT MROOrbitView.EnableStars = Off;
+GMAT MROOrbitView.EnableConstellations = Off;
+
+%----------------------------------------
+%---------- Mission Sequence
+%----------------------------------------
+
+BeginMissionSequence;
+Propagate spkProp(MRO) {MRO.ElapsedDays = 210.3946};
